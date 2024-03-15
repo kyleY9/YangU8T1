@@ -76,6 +76,27 @@ public class Main {
         arr1[1][1] = 5;
         arr1[1][2] = 6;
 
+        arr2[0][0] = "a";
+        arr2[0][1] = "b";
+        arr2[1][0] = "c";
+        arr2[1][1] = "d";
+        arr2[2][0] = "e";
+        arr2[2][1] = "f";
+        arr2[3][0] = "g";
+        arr2[3][1] = "h";
 
+        for (int[] arr : arr1) {
+            for (int num : arr) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+        for (String[] arr : arr2) {
+            for (String str : arr) {
+                System.out.print(str + " ");
+            }
+            System.out.println();
+        }
     }
 }
